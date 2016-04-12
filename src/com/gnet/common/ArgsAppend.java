@@ -12,6 +12,7 @@ package com.gnet.common;
  */
 public class ArgsAppend {
     // 字符串为空 按null处理
+	// 字符串为空 按null处理
 	public static String getAppendArgs(String[] args) {
 		if (args != null && args.length > 0) {
 			StringBuffer result = new StringBuffer("[");
