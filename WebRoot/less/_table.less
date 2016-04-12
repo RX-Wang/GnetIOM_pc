@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*table*/
+/*table one*/
+.table_one {
+  background: #fff;
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0;
+  thead{
+    tr{
+      th{
+        background-color: #e2e8ef;
+        border: 1px solid #9aa3ae;
+        font-weight: normal;
+      }
+    }
+  }
+  tbody{
+    tr{
+      th{
+        text-align: left;
+        padding:2px 0 2px 12px;
+      }
+      td{
+        border: 1px solid #ebebeb;
+        text-align: left;
+        padding:2px 0 2px 12px;
+        &.tb_bg1{
+          background-color: #f59336;
+        }
+        &.tb_bg2{
+          background-color: #2c587d;
+        }
+        &.tb_bg3{
+          background-color: #6955a7;
+        }
+        &.tb_bg4{
+          background-color: #f54336;
+        }
+      }
+      &:hover{
+        background-color: #8e8da5;
+        color: #fff;
+        td{
+          &:first-child{
+            background-color:none;
+          }
+        }
+      }
+
+    }
+  }
+
+  tfoot{
+    tr{
+      td{
+        padding:0;
+      }
+    }
+  }
+
+}
+
+/*table two*/
+.table_two{
+  margin-bottom: 0;
+
+  thead{
+    tr{
+      th{
+        background-color: #e2e8ef;
+        border: 1px solid #9aa3ae;
+        font-weight: normal;
+      }
+    }
+  }
+  tbody{
+    tr{
+      td{
+
+        a{
+          color: #fff;
+          margin-right: 40px;
+        }
+      }
+      &.tr_danger{
+        background-color: #0a9595;
+        color: #fff;
+        &:hover{
+          background-color: #097a7a;
+        }
+      }
+      &.tr_incident{
+        background-color: #1995ff;
+        color: #fff;
+        &:hover{
+          background-color: #1785e5;
+        }
+      }
+      &.tr_fault{
+        background-color: #ed6c6c;
+        color: #fff;
+        &:hover{
+          background-color: #d46161;
+        }
+      }
+    }
+  }
+}
+
+/*tablethree*/
+.table_three{
+  tbody{
+    tr{
+      border: 1px solid #ebebeb;
+      td{
+        padding:5px 55px;
+        font-size: 14px;
+        color: #000000;
+
+        .device_news{
+          .device_user{
+            margin-right: 10px;
+          }
+          .device_name{
+            margin-right: 10px;
+          }
+        }
+      }
+
+      &:hover,&.active{
+        background-color: #8e8da5;
+        color: #fff;
+
+        span{
+          color: #fff;
+        }
+      }
+    }
+
+  }
+}
